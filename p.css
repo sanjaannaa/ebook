@@ -1,0 +1,81 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+    padding: auto;
+    background-image: url(jj.jpg);
+    background-size: cover;
+}
+
+
+
+
+header,footer{
+    background: color #d8cdcd;;
+    color:white;
+    padding: 1em;
+    text-align:left;
+    height: top;
+
+}
+
+header{
+    background-color: white;
+    text-align: center;
+    color:black ;
+}
+
+
+#books{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding: 4em;
+    color:rgb(145, 145, 250);
+    
+}
+
+.book{
+    border: 1cap solid grey;
+    padding: 4em;
+    margin: 5em;
+    height: 11em;
+    text-align: center;
+    background-color:black;
+}
+
+button{
+    background-color:goldenrod;
+    color: white;
+    padding: 0.sem 1em;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #45a049;
+}
+
+img{
+    height:100px;
+    width: 80px;
+    align-content:space-between;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+    color:white;
+    
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    color: azure;
+}
+
+.nav-link ul li{
+    color: white;
+    text-decoration: none;
+}
